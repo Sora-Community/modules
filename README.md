@@ -113,7 +113,7 @@ This project does not have any affiliation with the content providers nor the So
 
 If you own either a content provider or content that is hosted on one of the content providers that a source is offered for and wish not to have the source be made available on this repo, please contact us or create a new issue to let us know and we will remove it.
 
-The user [cranci1](https://github.com/cranci1), owner of the Sora iOS app repository is a contributor in order to let him add module protection, created by him, inside the [Sora-Core](https://github.com/cranci1/Sora-Core) repository, in order to not break the package license.
+The user [cranci1](https://github.com/cranci1), owner of the Sora iOS app repository is a contributor in order to let him add module protection, created by him, inside the [SoraCore](https://github.com/cranci1/SoraCore) repository, in order to not break the package license.
 
 ## 👏 Credits
 
