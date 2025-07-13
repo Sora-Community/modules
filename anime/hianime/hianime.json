@@ -1,6 +1,6 @@
 {
     "sourceName": "HiAnime",
-    "iconUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/hianime/iconapp.png",
+    "iconUrl": "https://raw.githubusercontent.com/Sora-Community/modules/refs/heads/main/anime/hianime/iconapp.png",
     "author": {
         "name": "50/50",
         "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
@@ -11,7 +11,7 @@
     "quality": "1080p",
     "baseUrl": "https://megacloud.blog/",
     "searchBaseUrl": "https://bshar1865-hianime.vercel.app/api/v2/hianime/search?q=%s",
-    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/hianime/hianime.js",
+    "scriptUrl": "https://raw.githubusercontent.com/Sora-Community/modules/refs/heads/main/anime/hianime/hianime.js",
     "type": "anime",
     "asyncJS": true,
     "softsub": true

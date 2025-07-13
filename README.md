@@ -10,6 +10,7 @@ Welcome to the **Sora Module Repository** — a place for the community to submi
 Sora is a modular content streaming app for iOS/macOS. It supports custom content **modules** written in JavaScript that scrape streaming websites for content like anime, shows, and movies.
 
 Each module is defined by:
+
 - A `.json` metadata file describing the module.
 - A matching `.js` file that implements scraping logic.
 
@@ -44,7 +45,7 @@ Each module's `.json` file should include:
   "asyncJS": true,
   "streamAsyncJS": false,
   "softsub": false,
-  "type": "anime"
+  "type": "movie"
 }
 ```
 
@@ -55,20 +56,20 @@ Each module's `.json` file should include:
 
 Your JavaScript file should define the following functions:
 
-| Function            | Purpose                            | Expected Output                         |
-|---------------------|------------------------------------|-----------------------------------------|
-| `searchResults()`   | Return array of search results     | `[{ title, image, href }]`              |
-| `extractDetails()`  | Return metadata about a show/item  | `{ description, aliases, airdate, ... }`|
-| `extractEpisodes()` | Return list of episodes            | `[{ number, href }]`                    |
-| `extractStreamUrl()`| Return stream URL or object        | `"https://stream..."` or `{ stream, subtitles }` |
+| Function             | Purpose                           | Expected Output                                  |
+| -------------------- | --------------------------------- | ------------------------------------------------ |
+| `searchResults()`    | Return array of search results    | `[{ title, image, href }]`                       |
+| `extractDetails()`   | Return metadata about a show/item | `{ description, aliases, airdate, ... }`         |
+| `extractEpisodes()`  | Return list of episodes           | `[{ number, href }]`                             |
+| `extractStreamUrl()` | Return stream URL or object       | `"https://stream..."` or `{ stream, subtitles }` |
 
 ## 🔁 Async & Modes
 
-| Flag            | Description |
-|-----------------|-------------|
+| Flag            | Description                                                  |
+| --------------- | ------------------------------------------------------------ |
 | `asyncJS`       | Enables use of `fetchv2()` in all functions (async scraping) |
-| `streamAsyncJS` | Allows async stream resolution |
-| `softsub`       | Allows returning subtitles with stream |
+| `streamAsyncJS` | Allows async stream resolution                               |
+| `softsub`       | Allows returning subtitles with stream                       |
 
 ```js
 // Example fetch in async mode using headers
@@ -109,11 +110,12 @@ Join the official app [Discord](https://discord.gg/XR3SrmUbpd)
 Or check the [Sora Docs](https://soradocs.readthedocs.io/en/latest/) for more in-depth technical info.
 
 ## Disclaimer
-This project does not have any affiliation with the content providers nor the Sora application.
+
+**This project does not have any affiliation with the content providers nor the Sora application.**
 
 If you own either a content provider or content that is hosted on one of the content providers that a source is offered for and wish not to have the source be made available on this repo, please contact us or create a new issue to let us know and we will remove it.
 
-The user [cranci1](https://github.com/cranci1), owner of the Sora iOS app repository is a contributor in order to let him add module protection, created by him, inside the [SoraCore](https://github.com/cranci1/SoraCore) repository, in order to not break the package license.
+**The user [cranci1](https://github.com/cranci1), owner of the Sora iOS app repository is a contributor to let him add module protection, created by him, inside the [SoraCore](https://github.com/cranci1/SoraCore) repository, in order to not break the package license.**
 
 ## 👏 Credits
 

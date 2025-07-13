@@ -11,6 +11,6 @@
     "quality": "1080p",
     "baseUrl": "https://animeworld.ac/",
     "searchBaseUrl": "https://www.animeworld.ac/search?keyword=%s",
-    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/animeworld/animeworld.js",
+    "scriptUrl": "https://raw.githubusercontent.com/Sora-Community/modules/refs/heads/main/anime/animeworld/animeworld.js",
     "type": "anime"
 }
