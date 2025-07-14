@@ -92,6 +92,7 @@ let json = await res.json();
 4. Ensure `scriptUrl` points to the raw JS URL
 5. **Test your module thoroughly**
 6. Submit a Pull Request
+7. If approved, one of the repositories maintainers will request a change of your sources json to point to this repo, once you accept the change it will be merged into the repo.
 
 > ❗ **Do not submit broken or incomplete modules.** Only submit working, tested modules that follow Sora’s structure. Every module is tested before merged, and the code is also reviewed.
 
