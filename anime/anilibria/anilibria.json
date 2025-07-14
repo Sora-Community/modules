@@ -11,7 +11,7 @@
     "quality": "720p",
     "baseUrl": "https://api.anilibria.tv/",
     "searchBaseUrl": "https://api.anilibria.tv/v3/title/search?search=%s",
-    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/anilibria/anilibria.js",
+    "scriptUrl": "https://raw.githubusercontent.com/Sora-Community/modules/refs/heads/main/anime/anilibria/anilibria.js",
     "asyncJS": true,
     "type": "anime"
 }
